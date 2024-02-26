@@ -1,11 +1,24 @@
-﻿int a = 16;
-int b = 122;
+﻿int a = 166666;
+int b = 12222;
+int c = 11111;
+int d = 1234;
+int e = 2333;
+int max = a;
 
-if (a > b)
+if (max < b)
 {
-    Console.WriteLine(a);
+    max = b;
 }
-else
+if (max < c)
 {
-    Console.WriteLine(b);
+    max = c;
 }
+if (max < d)
+{
+    max = d;
+}
+if (max < e)
+{
+    max = e;
+}
+Console.WriteLine(max);
